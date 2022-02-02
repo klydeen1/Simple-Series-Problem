@@ -17,6 +17,10 @@
 		656CD6F927AA2DFB0009DDE9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD6CF27AA2DF80009DDE9 /* ContentView.swift */; };
 		656CD6FA27AA2DFB0009DDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656CD6D027AA2DFA0009DDE9 /* Assets.xcassets */; };
 		656CD6FB27AA2DFB0009DDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 656CD6D027AA2DFA0009DDE9 /* Assets.xcassets */; };
+		656CD70B27AA2E3D0009DDE9 /* SimpleSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD70A27AA2E3D0009DDE9 /* SimpleSeries.swift */; };
+		656CD70C27AA2E3D0009DDE9 /* SimpleSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD70A27AA2E3D0009DDE9 /* SimpleSeries.swift */; };
+		656CD70D27AA36DE0009DDE9 /* SimpleSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD70A27AA2E3D0009DDE9 /* SimpleSeries.swift */; };
+		656CD70E27AA36EA0009DDE9 /* SimpleSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656CD70A27AA2E3D0009DDE9 /* SimpleSeries.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,7 @@
 		656CD6EE27AA2DFB0009DDE9 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656CD6F227AA2DFB0009DDE9 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		656CD6F427AA2DFB0009DDE9 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		656CD70A27AA2E3D0009DDE9 /* SimpleSeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSeries.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +104,7 @@
 			children = (
 				656CD6CE27AA2DF80009DDE9 /* Simple_Series_ProblemApp.swift */,
 				656CD6CF27AA2DF80009DDE9 /* ContentView.swift */,
+				656CD70A27AA2E3D0009DDE9 /* SimpleSeries.swift */,
 				656CD6D027AA2DFA0009DDE9 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -300,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				656CD6F827AA2DFB0009DDE9 /* ContentView.swift in Sources */,
+				656CD70B27AA2E3D0009DDE9 /* SimpleSeries.swift in Sources */,
 				656CD6F627AA2DFB0009DDE9 /* Simple_Series_ProblemApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				656CD6F927AA2DFB0009DDE9 /* ContentView.swift in Sources */,
+				656CD70C27AA2E3D0009DDE9 /* SimpleSeries.swift in Sources */,
 				656CD6F727AA2DFB0009DDE9 /* Simple_Series_ProblemApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656CD70D27AA36DE0009DDE9 /* SimpleSeries.swift in Sources */,
 				656CD6E927AA2DFA0009DDE9 /* Tests_iOSLaunchTests.swift in Sources */,
 				656CD6E727AA2DFA0009DDE9 /* Tests_iOS.swift in Sources */,
 			);
@@ -326,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656CD70E27AA36EA0009DDE9 /* SimpleSeries.swift in Sources */,
 				656CD6F527AA2DFB0009DDE9 /* Tests_macOSLaunchTests.swift in Sources */,
 				656CD6F327AA2DFB0009DDE9 /* Tests_macOS.swift in Sources */,
 			);
